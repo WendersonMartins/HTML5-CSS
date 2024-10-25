@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalisando links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        #   = ID
+        .   = CLASS
+        :   = PSEUDO-CLASS
+        ::  = PSEUDO-ELEMENT
+        >   = FILHO
+
+        */
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: aquamarine;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalisando Link</h1>
+    <ul>
+    
+     <li><a href="https://www.rotowire.com/basketball/nba-lineups.php" target="_blank">Rotowire</a></li>
+     <li><a href="https://www.sofascore.com/basketball" target="_blank">Sofascore</a></li>
+     <li><a href="https://www.teamrankings.com/nba/team-stats/" target="_blank">teamrakings</a></li>
+
+
+    </ul>
+    
+</body>
+</html>
